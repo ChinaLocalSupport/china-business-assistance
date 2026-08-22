@@ -16,8 +16,8 @@ China Business Assistance | Global Sourcing & Business Support
 
 <meta name="description"
 content="
-Professional sourcing, supplier management,
-inspection and international business support services.
+Professional sourcing, supplier connection,
+inspection and international business support.
 ">
 
 
@@ -25,49 +25,26 @@ inspection and international business support services.
 href="https://visaservice.icu/">
 
 
+
 <meta property="og:title"
-content="China Business Assistance | Global Sourcing & Support">
-
-
-<meta property="og:description"
-content="
-Sourcing, supplier connection, inspection and local business assistance.
-">
+content="China Business Assistance">
 
 
 <meta property="og:url"
 content="https://visaservice.icu/">
 
 
-<meta property="og:type"
-content="website">
-
-
 
 <script type="application/ld+json">
 
 {
-"@context":"https://schema.org",
-"@type":"Organization",
-
-"name":"China Business Assistance",
-
-"url":"https://visaservice.icu/",
-
-"description":
-"Global sourcing, supplier management and business support services.",
-
-"areaServed":"Worldwide",
-
-"serviceType":[
-
-"Sourcing Services",
-"Supplier Management",
-"Factory Inspection",
-"Business Support"
-
-]
-
+ "@context":"https://schema.org",
+ "@type":"Organization",
+ "name":"China Business Assistance",
+ "url":"https://visaservice.icu/",
+ "description":
+ "Global sourcing and business support services.",
+ "areaServed":"Worldwide"
 }
 
 </script>
@@ -76,22 +53,24 @@ content="website">
 
 <style>
 
+
 *{
 box-sizing:border-box;
 }
+
 
 
 body{
 
 margin:0;
 
-background:#f7f8fa;
-
 font-family:
+
 Arial,
 Helvetica,
-"Microsoft YaHei",
 sans-serif;
+
+background:#f5f6f8;
 
 color:#222;
 
@@ -103,14 +82,16 @@ line-height:1.7;
 
 header{
 
-background:#fff;
+background:#ffffff;
 
 padding:
-70px 20px 60px;
+
+70px 20px;
 
 text-align:center;
 
 border-bottom:
+
 1px solid #ddd;
 
 }
@@ -122,11 +103,12 @@ header h1{
 margin:0;
 
 font-size:
-clamp(28px,5vw,42px);
+
+42px;
+
+color:#1d3557;
 
 font-weight:700;
-
-color:#1f3a5f;
 
 }
 
@@ -134,10 +116,9 @@ color:#1f3a5f;
 
 header p{
 
-font-size:
-clamp(15px,3vw,20px);
+font-size:20px;
 
-color:#555;
+color:#666;
 
 margin-top:15px;
 
@@ -145,21 +126,21 @@ margin-top:15px;
 
 
 
-.btn{
+.website{
 
 display:inline-block;
 
 margin-top:25px;
 
-padding:12px 28px;
+padding:12px 30px;
 
-background:#1f3a5f;
+background:#1d3557;
 
-color:white;
-
-border-radius:6px;
+color:#fff;
 
 text-decoration:none;
+
+border-radius:6px;
 
 }
 
@@ -171,38 +152,37 @@ max-width:1100px;
 
 margin:auto;
 
-padding:20px;
+padding:25px 18px;
 
 }
 
 
 
-.card{
+.section{
 
-background:white;
+background:#fff;
 
-padding:
-30px;
+padding:35px;
 
-margin:
-25px 0;
+margin-bottom:25px;
 
-border-radius:12px;
+border-radius:14px;
 
 box-shadow:
-0 3px 15px rgba(0,0,0,.06);
+
+0 5px 20px rgba(0,0,0,.05);
 
 }
 
 
 
-h2{
+.section h2{
 
 margin-top:0;
 
-color:#1f3a5f;
+color:#1d3557;
 
-font-size:26px;
+font-size:28px;
 
 }
 
@@ -213,6 +193,7 @@ font-size:26px;
 display:grid;
 
 grid-template-columns:
+
 repeat(auto-fit,minmax(220px,1fr));
 
 gap:15px;
@@ -221,16 +202,15 @@ gap:15px;
 
 
 
-.item{
-
-border:
-1px solid #eee;
+.service{
 
 padding:18px;
 
-border-radius:8px;
+border:
 
-background:#fafafa;
+1px solid #e5e5e5;
+
+border-radius:8px;
 
 }
 
@@ -241,21 +221,56 @@ background:#fafafa;
 display:grid;
 
 grid-template-columns:
-repeat(auto-fit,minmax(180px,1fr));
 
-gap:15px;
+repeat(auto-fit,minmax(240px,1fr));
+
+gap:30px;
 
 }
 
 
 
-.gallery img{
+.product{
+
+text-align:center;
+
+}
+
+
+
+.product img{
 
 width:100%;
 
-border-radius:8px;
+height:auto;
 
-display:block;
+border-radius:12px;
+
+background:#eee;
+
+}
+
+
+
+.product h3{
+
+font-size:20px;
+
+color:#1d3557;
+
+margin:
+
+15px 0 8px;
+
+}
+
+
+
+.product p{
+
+color:#666;
+
+font-size:15px;
 
 }
 
@@ -263,13 +278,13 @@ display:block;
 
 footer{
 
-background:#1f2937;
+background:#1d3557;
 
-color:white;
+color:#fff;
+
+padding:40px 20px;
 
 text-align:center;
-
-padding:35px 20px;
 
 }
 
@@ -277,17 +292,19 @@ padding:35px 20px;
 
 footer a{
 
-color:white;
+color:#fff;
 
 }
 
 
 
-.multilang{
+.hidden-keywords{
 
 position:absolute;
 
-left:-9999px;
+left:-99999px;
+
+top:-99999px;
 
 width:1px;
 
@@ -302,24 +319,32 @@ overflow:hidden;
 @media(max-width:600px){
 
 
-.card{
+header h1{
 
-padding:20px;
-
-}
-
-
-header{
-
-padding:45px 15px;
+font-size:30px;
 
 }
 
 
+header p{
+
+font-size:16px;
+
 }
+
+
+.section{
+
+padding:22px;
+
+}
+
+
+}
+
+
 
 </style>
-
 
 
 </head>
@@ -339,11 +364,11 @@ China Business Assistance
 
 
 <p>
-Global Sourcing | Supplier Connection | Business Support
+Global Sourcing · Supplier Connection · Business Support
 </p>
 
 
-<a class="btn"
+<a class="website"
 
 href="https://visaservice.icu/"
 
@@ -365,7 +390,7 @@ Official Website
 
 
 
-<section class="card">
+<section class="section">
 
 
 <h2>
@@ -376,7 +401,7 @@ About Us
 <p>
 
 We provide professional sourcing,
-supplier connection, inspection and
+supplier coordination, inspection and
 local business assistance for international clients.
 
 </p>
@@ -388,7 +413,7 @@ local business assistance for international clients.
 
 
 
-<section class="card">
+<section class="section">
 
 
 <h2>
@@ -400,35 +425,34 @@ Services
 <div class="services">
 
 
-<div class="item">
+<div class="service">
 Sourcing Services
 </div>
 
 
-<div class="item">
-Supplier Search
+<div class="service">
+Supplier Management
 </div>
 
 
-<div class="item">
+<div class="service">
 Factory Inspection
 </div>
 
 
-<div class="item">
+<div class="service">
 Business Visits
 </div>
 
 
-<div class="item">
+<div class="service">
 Local Assistance
 </div>
 
 
-<div class="item">
+<div class="service">
 Product Coordination
 </div>
-
 
 
 </div>
@@ -440,7 +464,9 @@ Product Coordination
 
 
 
-<section class="card">
+
+
+<section class="section">
 
 
 <h2>
@@ -448,31 +474,115 @@ Products & Industries
 </h2>
 
 
+
 <div class="gallery">
 
 
-<img src="images/1.jpg"
-alt="Industrial products">
+
+<div class="product">
 
 
-<img src="images/2.jpg"
+<img
+
+src="https://visaservice.icu/images/1.jpg"
+
+alt="Industrial equipment">
+
+
+<h3>
+Industrial Equipment
+</h3>
+
+
+<p>
+Equipment sourcing and supplier coordination.
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="product">
+
+
+<img
+
+src="https://visaservice.icu/images/2.jpg"
+
 alt="Electronic products">
 
 
-<img src="images/3.jpg"
-alt="Manufacturing products">
+<h3>
+Electronic Products
+</h3>
 
 
-<img src="images/4.jpg"
-alt="Consumer goods">
+<p>
+Supplier connection and product support.
+</p>
 
 
-<img src="images/5.jpg"
-alt="Commercial equipment">
+</div>
 
 
-<img src="images/6.jpg"
-alt="Wholesale products">
+
+
+
+
+<div class="product">
+
+
+<img
+
+src="https://visaservice.icu/images/3.jpg"
+
+alt="Consumer products">
+
+
+<h3>
+Consumer Products
+</h3>
+
+
+<p>
+Product sourcing and market assistance.
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="product">
+
+
+<img
+
+src="https://visaservice.icu/images/4.jpg"
+
+alt="Vehicles and equipment">
+
+
+<h3>
+Vehicles & Equipment
+</h3>
+
+
+<p>
+Business sourcing solutions.
+</p>
+
+
+</div>
+
+
 
 
 </div>
@@ -485,314 +595,47 @@ alt="Wholesale products">
 
 
 
-<section class="multilang">
+<section class="hidden-keywords">
 
 
-<!-- Arabic -->
-
-<div lang="ar">
+<div>
 
 وكيل شراء الصين
-
-استيراد من الصين
-
-موردين صينيين
-
-مصانع صينية
-
-</div>
-
-
-
-<!-- Japanese -->
-
-<div lang="ja">
+الاستيراد من الصين
+مورد صيني
 
 中国仕入れ
-
 中国輸入
-
-仕入れ代行
-
 中国メーカー
 
-</div>
-
-
-
-<!-- Korean -->
-
-<div lang="ko">
-
 중국 구매대행
-
 중국 수입
 
-중국 공급업체
-
-중국 제조업체
-
-</div>
-
-
-
-<!-- Spanish -->
-
-<div lang="es">
-
-agente de compras China
-
-importar de China
-
+agente compras China
 proveedor chino
 
-fabricante chino
-
-</div>
-
-
-
-<!-- Portuguese -->
-
-<div lang="pt">
-
-agente de compras China
-
-importação da China
-
-fornecedor chinês
-
-</div>
-
-
-
-<!-- French -->
-
-<div lang="fr">
-
-achat en Chine
-
-import Chine
-
-fournisseur chinois
-
-</div>
-
-
-
-<!-- German -->
-
-<div lang="de">
+agent achat Chine
 
 China Einkaufsagent
 
-Import aus China
-
-chinesischer Lieferant
-
-</div>
-
-
-
-<!-- Turkish -->
-
-<div lang="tr">
-
 Çin satın alma temsilcisi
-
-Çin ithalat
-
-Çin tedarikçi
-
-</div>
-
-
-
-<!-- Vietnamese -->
-
-<div lang="vi">
 
 đại lý mua hàng Trung Quốc
 
-nhập khẩu Trung Quốc
-
-nhà cung cấp Trung Quốc
-
-</div>
-
-
-
-<!-- Indonesian -->
-
-<div lang="id">
-
 agen pembelian China
 
-import China
-
-supplier China
-
 </div>
-
-
-
-<!-- Thai -->
-
-<div lang="th">
-
-ตัวแทนจัดซื้อจีน
-
-นำเข้าสินค้าจากจีน
-
-ผู้ผลิตจีน
-
-</div>
-
-
-
-<!-- Russian -->
-
-<div lang="ru">
-
-агент по закупкам в Китае
-
-импорт из Китая
-
-китайский поставщик
-
-</div>
-
-
-
-<!-- Persian -->
-
-<div lang="fa">
-
-نماینده خرید چین
-
-واردات از چین
-
-تامین کننده چینی
-
-</div>
-
-
-
-<!-- Polish -->
-
-<div lang="pl">
-
-agent zakupowy Chiny
-
-import z Chin
-
-dostawca chiński
-
-</div>
-
-
-
-<!-- Italian -->
-
-<div lang="it">
-
-agente acquisti Cina
-
-importazione Cina
-
-fornitore cinese
-
-</div>
-
-
-
-<!-- Dutch -->
-
-<div lang="nl">
-
-inkoopagent China
-
-import uit China
-
-Chinese leverancier
-
-</div>
-
-
-
-<!-- Malay -->
-
-<div lang="ms">
-
-ejen pembelian China
-
-import China
-
-pembekal China
-
-</div>
-
-
-
-<!-- Filipino -->
-
-<div lang="fil">
-
-ahente sa pagbili ng China
-
-supplier China
-
-import China
-
-</div>
-
-
-
-<!-- Bengali -->
-
-<div lang="bn">
-
-চীন থেকে পণ্য আমদানি
-
-চীনা সরবরাহকারী
-
-</div>
-
-
-
-<!-- Urdu -->
-
-<div lang="ur">
-
-چین خرید ایجنٹ
-
-چینی سپلائر
-
-چین درآمد
-
-</div>
-
-
-
-<!-- Hebrew -->
-
-<div lang="he">
-
-סוכן רכש בסין
-
-יבוא מסין
-
-ספק סיני
-
-</div>
-
 
 
 </section>
 
 
 
+
+
+
 </div>
+
 
 
 
@@ -800,24 +643,23 @@ import China
 <footer>
 
 
-<p>
-China Business Assistance
-</p>
+<h3>
+Contact
+</h3>
 
 
 <p>
 
 <a href="https://visaservice.icu/"
 
-target="_blank"
-
-rel="noopener">
+target="_blank">
 
 https://visaservice.icu/
 
 </a>
 
 </p>
+
 
 
 </footer>
