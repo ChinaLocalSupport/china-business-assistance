@@ -1,38 +1,77 @@
-# 免费 Telegram 社工库机器人 - @xinxigongxiangBot
+# China Business Assistance
 
-[👉 点我直达 GitHub Pages 在线页面](https://wvcs12369874.github.io/wvcs12369874/)
+## China Sourcing Agent | Supplier Search | Factory Inspection | Local Support
 
-🚀 使用 2025 年最新社工库数据，快速查询账号密码、手机号、邮箱、身份证、微博、游戏等信息是否泄露。
-
----
-
-## 🔍 功能特点
-
-- 查询手机号、QQ、微博是否泄漏
-- 检测邮箱及密码是否被盗
-- 验证身份证号、户籍资料是否曝光
-- 查询老密、学籍、游戏帐号（LOL、DNF）等隐私
-- 完整支持 Telegram 机器人：[点击使用 @xinxigongxiangBot](https://t.me/xinxigongxiangBot)
+🌐 Official Website  
+https://visaservice.icu/
 
 ---
 
-## 📦 使用方法
+## About Us
 
-1. 下载或打开 GitHub Pages 页面：[https://wvcs12369874.github.io/wvcs12369874/](https://wvcs12369874.github.io/wvcs12369874/)
-2. 或直接在 Telegram 中搜索 `@xinxigongxiangBot`
-3. 按照提示输入要查询的信息，如手机号、QQ、邮箱等
+We provide local business assistance in China for international companies, importers and entrepreneurs.
+
+Our services help overseas clients connect with Chinese suppliers, manufacturers and business partners.
+
+We support:
+
+- China sourcing
+- Supplier search
+- Factory verification
+- Factory inspection
+- Business visits
+- Local communication
+- Translation assistance
+- Overseas business support
 
 ---
 
-## 🌐 注意事项
+## Why Work With Us
 
-- 如果你在中国大陆，建议使用代理（如 VXN 工具）访问 Telegram。
-- 本工具仅基于公开数据泄漏样本，**不保存任何用户隐私信息**。
-- 请勿用于非法用途。
+Finding reliable suppliers in China can be difficult without local support.
+
+We help international clients:
+
+✓ Find suitable manufacturers  
+✓ Communicate with Chinese suppliers  
+✓ Visit and check factories  
+✓ Understand local business environments  
+✓ Reduce communication barriers
 
 ---
 
-## 🔗 相关链接
+## Global Clients Search Terms
 
-- ✅ Telegram 机器人：[https://t.me/xinxigongxiangBot](https://t.me/xinxigongxiangBot)
-- ✅ GitHub Pages 页面：[https://wvcs12369874.github.io/wvcs12369874/](https://wvcs12369874.github.io/wvcs12369874/)
+International customers may search our services using different languages:
+
+| Language | Common Search Terms |
+| --- | --- |
+| العربية | وكيل شراء في الصين · الاستيراد من الصين |
+| Türkçe | Çin satın alma temsilcisi · Çin tedarikçi bulma |
+| Português | Agente de compras na China · Fornecedor chinês |
+| Español | Agente de compras en China · Proveedores chinos |
+| Tiếng Việt | Đại lý mua hàng Trung Quốc · Nhà cung cấp Trung Quốc |
+| Bahasa Indonesia | Agen pembelian China · Supplier China |
+| ไทย | ตัวแทนจัดซื้อจากจีน · สินค้าจากจีน |
+| فارسی | نماینده خرید چین · تامین کننده چینی |
+| বাংলা | চীন থেকে পণ্য কেনা · চীনা সরবরাহকারী |
+| Polski | Agent zakupowy w Chinach · Dostawcy z Chin |
+
+---
+
+## China Business Support
+
+We assist companies from different regions who want to:
+
+- Source products from China
+- Work with Chinese factories
+- Visit China for business
+- Build supplier relationships
+
+---
+
+## Contact
+
+Website:
+
+https://visaservice.icu/
