@@ -1,10 +1,10 @@
-# 🌏 China Business Assistance
+# 🌐 China Business Assistance
 
 > China Sourcing Agent · Supplier Search · Factory Inspection · Local Support
 
 ---
 
-## 🏢 Overview
+## 📌 Overview
 
 Helping international businesses connect with Chinese suppliers, manufacturers and local partners.
 
