@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wvcs12369874.github.io/wvcs12369874/sitemap.xml
+Sitemap: https://chinalocalsupport.github.io/china-business-assistance/sitemap.xml
