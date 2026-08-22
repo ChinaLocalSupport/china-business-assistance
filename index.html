@@ -6,9 +6,7 @@
 <meta charset="UTF-8">
 
 <meta name="viewport"
-content="width=device-width,initial-scale=1">
-
-<base href="https://visaservice.icu/">
+content="width=device-width,initial-scale=1.0,maximum-scale=5.0">
 
 
 <title>
@@ -18,19 +16,9 @@ China Business Assistance | China Sourcing Agent | Global Support
 
 <meta name="description"
 content="
-China Business Assistance provides sourcing agent services,
-supplier search, factory inspection, business visits,
-visa support and local assistance in China.
-">
-
-
-<meta name="keywords"
-content="
-China sourcing agent,
-China supplier,
-factory inspection China,
-business support China,
-China procurement service
+China Business Assistance provides sourcing agent,
+supplier search, factory inspection,
+business visits and local support services in China.
 ">
 
 
@@ -38,59 +26,43 @@ China procurement service
 href="https://visaservice.icu/">
 
 
+
 <meta property="og:title"
 content="China Business Assistance | China Sourcing Agent">
 
 
 <meta property="og:description"
-content="
-Professional China sourcing, supplier search,
-factory inspection and international business support.
-">
+content="Professional China sourcing and business support services.">
 
 
 <meta property="og:url"
 content="https://visaservice.icu/">
 
 
-<meta property="og:type"
-content="website">
-
-
 
 <script type="application/ld+json">
 
 {
-"@context":"https://schema.org",
-"@type":"Organization",
+ "@context":"https://schema.org",
+ "@type":"Organization",
 
-"name":
-"China Business Assistance",
+ "name":"China Business Assistance",
 
-"url":
-"https://visaservice.icu/",
+ "url":"https://visaservice.icu/",
 
-"description":
-"China sourcing agent, supplier search, factory inspection and international business support.",
+ "description":
+ "China sourcing agent, supplier search and international business support.",
 
+ "areaServed":"Worldwide",
 
-"areaServed":
-"Worldwide",
+ "serviceType":[
 
+ "China Sourcing Agent",
+ "Supplier Search",
+ "Factory Inspection",
+ "Business Support"
 
-"serviceType":[
-
-"China Sourcing Agent",
-
-"Supplier Search",
-
-"Factory Inspection",
-
-"Business Support",
-
-"International Services"
-
-]
+ ]
 
 }
 
@@ -100,102 +72,204 @@ content="website">
 
 <style>
 
-body{
 
-margin:0;
+*{
 
-background:#f5f7fa;
-
-font-family:
-Arial,
-"Microsoft YaHei",
-sans-serif;
-
-color:#222;
+box-sizing:border-box;
 
 }
 
 
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+
+
+body{
+
+margin:0;
+
+background:#f6f7f9;
+
+font-family:
+
+Arial,
+"Microsoft YaHei",
+"Noto Sans",
+sans-serif;
+
+color:#222;
+
+line-height:1.6;
+
+}
+
+
+
+
+/* 顶部区域 */
+
 header{
 
-background:
-linear-gradient(
-135deg,
-#b40000,
-#005bbb
-);
+background:#ffffff;
 
-color:white;
+border-bottom:
 
-padding:60px 20px;
+1px solid #e5e5e5;
+
+padding:
+
+clamp(35px,8vw,70px)
+
+20px;
 
 text-align:center;
 
 }
 
 
-header h1{
 
-font-size:34px;
+header h1{
 
 margin:0;
 
+font-size:
+
+clamp(26px,5vw,42px);
+
+font-weight:700;
+
+color:#111;
+
 }
+
+
+
+header h1 span{
+
+color:#c40000;
+
+}
+
 
 
 header p{
 
-font-size:18px;
+margin-top:15px;
+
+font-size:
+
+clamp(15px,3vw,20px);
+
+color:#555;
 
 }
 
+
+
+.flag{
+
+font-size:32px;
+
+}
+
+
+
+
+
+/* 主体 */
 
 
 .container{
 
-max-width:1000px;
+width:100%;
+
+max-width:1100px;
 
 margin:auto;
 
-padding:20px;
+padding:
+
+15px;
 
 }
+
 
 
 
 .card{
 
-background:white;
+background:#fff;
 
-padding:25px;
+padding:
 
-margin:20px 0;
+clamp(18px,4vw,30px);
 
-border-radius:16px;
+margin:
+
+20px 0;
+
+border-radius:18px;
+
 
 box-shadow:
-0 5px 20px rgba(0,0,0,.08);
+
+0 4px 18px rgba(0,0,0,.06);
 
 }
+
 
 
 
 h2{
 
-color:#005bbb;
+font-size:
+
+clamp(20px,4vw,28px);
+
+margin-top:0;
+
+color:#123b70;
 
 }
 
 
 
-.small{
+.card p{
 
-color:#777;
+font-size:
 
-font-size:14px;
+clamp(15px,3vw,17px);
 
 }
 
+
+
+
+
+ul{
+
+padding-left:20px;
+
+}
+
+
+
+li{
+
+margin:8px 0;
+
+}
+
+
+
+
+
+/* 图片 */
 
 
 .gallery{
@@ -203,7 +277,8 @@ font-size:14px;
 display:grid;
 
 grid-template-columns:
-repeat(auto-fit,minmax(220px,1fr));
+
+repeat(auto-fit,minmax(160px,1fr));
 
 gap:15px;
 
@@ -215,38 +290,66 @@ gap:15px;
 
 width:100%;
 
+height:auto;
+
 border-radius:12px;
+
+display:block;
+
+object-fit:cover;
 
 }
 
 
 
-footer{
 
-background:#111;
+/* 官网按钮 */
+
+
+.website{
+
+display:inline-block;
+
+margin-top:15px;
+
+padding:
+
+12px 22px;
+
+
+background:#123b70;
 
 color:white;
 
-text-align:center;
+border-radius:8px;
 
-padding:30px;
+text-decoration:none;
+
+font-size:16px;
 
 }
 
 
-/*
-多语言关键词辅助区域
 
-不是广告文本
-用于帮助搜索引擎理解全球服务范围
+.website:hover{
 
-*/
+opacity:.85;
+
+}
+
+
+
+
+/* 隐藏多语言辅助 */
+
 
 .multilang{
 
 position:absolute;
 
-left:-9999px;
+left:-10000px;
+
+top:auto;
 
 width:1px;
 
@@ -257,10 +360,77 @@ overflow:hidden;
 }
 
 
+
+
+
+footer{
+
+background:#111;
+
+color:#fff;
+
+text-align:center;
+
+padding:
+
+35px 20px;
+
+}
+
+
+
+footer a{
+
+color:white;
+
+}
+
+
+
+
+
+/* 手机优化 */
+
+
+@media(max-width:600px){
+
+
+.container{
+
+padding:10px;
+
+}
+
+
+
+.card{
+
+border-radius:12px;
+
+}
+
+
+
+.gallery{
+
+grid-template-columns:
+
+repeat(2,1fr);
+
+gap:10px;
+
+}
+
+
+}
+
+
 </style>
 
 
+
 </head>
+
 
 
 
@@ -270,9 +440,17 @@ overflow:hidden;
 
 <header>
 
+
+<div class="flag">
+
+🇨🇳🌐
+
+</div>
+
+
 <h1>
 
-🇨🇳 China Business Assistance
+China Business Assistance
 
 </h1>
 
@@ -284,7 +462,21 @@ China Sourcing Agent | Global Business Support
 </p>
 
 
+<a class="website"
+
+href="https://visaservice.icu/"
+
+target="_blank"
+
+rel="noopener">
+
+Visit Official Website
+
+</a>
+
+
 </header>
+
 
 
 
@@ -317,12 +509,13 @@ for international clients.
 
 
 
+
 <section class="card">
 
 
 <h2>
 
-Our Services
+Core Services
 
 </h2>
 
@@ -354,15 +547,11 @@ Local Communication Support
 </li>
 
 
-<li>
-International Business Services
-</li>
-
-
 </ul>
 
 
 </section>
+
 
 
 
@@ -382,28 +571,29 @@ Products & Industries
 <div class="gallery">
 
 
-<img src="images/china-electronics-supplier.jpg"
-alt="China electronics supplier">
+<img src="images/1.jpg"
+alt="China supplier products">
 
 
-<img src="images/china-machinery-supplier.jpg"
-alt="China machinery supplier">
+<img src="images/2.jpg"
+alt="China manufacturing products">
 
 
-<img src="images/china-auto-parts.jpg"
-alt="China auto parts supplier">
+<img src="images/3.jpg"
+alt="China industrial equipment">
 
 
-<img src="images/china-clothing-manufacturer.jpg"
-alt="China clothing manufacturer">
+<img src="images/4.jpg"
+alt="China electronic products">
 
 
-<img src="images/china-wholesale-products.jpg"
+<img src="images/5.jpg"
 alt="China wholesale products">
 
 
-<img src="images/china-industrial-equipment.jpg"
-alt="China industrial equipment">
+<img src="images/6.jpg"
+alt="China factory products">
+
 
 
 </div>
@@ -411,7 +601,6 @@ alt="China industrial equipment">
 
 
 </section>
-
 
 
 
@@ -422,208 +611,142 @@ alt="China industrial equipment">
 
 
 <div lang="ar">
-
 وكيل شراء في الصين
-مصانع الصين
 استيراد من الصين
-مورد صيني
+مصانع الصين
+</div>
 
+
+<div lang="ja">
+中国購買代理
+中国仕入れ
+中国メーカー
+</div>
+
+
+<div lang="ko">
+중국 구매대행
+중국 공급업체
+</div>
+
+
+<div lang="ru">
+агент по закупкам в Китае
+поставщик Китая
+</div>
+
+
+<div lang="fr">
+agent achat Chine
+fournisseur chinois
+</div>
+
+
+<div lang="de">
+China Einkaufsagent
+Lieferant China
+</div>
+
+
+<div lang="es">
+agente compras China
+proveedor chino
+</div>
+
+
+<div lang="pt">
+agente compras China
+fornecedor chinês
 </div>
 
 
 <div lang="tr">
-
 Çin satın alma temsilcisi
-Çin tedarikçi
-Çin fabrikası
-
+Çin tedarikçisi
 </div>
-
-
-
-<div lang="pt">
-
-agente de compras China
-fornecedor chinês
-fabricante China
-
-</div>
-
-
-
-<div lang="es">
-
-agente de compras en China
-proveedor chino
-fabricante chino
-
-</div>
-
 
 
 <div lang="vi">
-
 đại lý mua hàng Trung Quốc
 nhà cung cấp Trung Quốc
-
 </div>
-
 
 
 <div lang="id">
-
 agen pembelian China
 supplier China
-
 </div>
-
 
 
 <div lang="th">
-
 ตัวแทนจัดซื้อจีน
 ผู้ผลิตจีน
-
 </div>
-
 
 
 <div lang="fa">
-
 نماینده خرید چین
 تامین کننده چین
-
 </div>
-
 
 
 <div lang="bn">
-
 চীন থেকে পণ্য কেনা
 সরবরাহকারী চীন
-
 </div>
-
 
 
 <div lang="pl">
-
-agent zakupowy w Chinach
-dostawca z Chin
-
+agent zakupowy Chiny
+dostawca Chiny
 </div>
-
-
-
-<div lang="ja">
-
-中国購買代理
-中国仕入れ
-中国メーカー
-
-</div>
-
-
-
-<div lang="ko">
-
-중국 구매대행
-중국 공급업체
-
-</div>
-
-
-
-<div lang="ru">
-
-агент по закупкам в Китае
-поставщик из Китая
-
-</div>
-
-
-
-<div lang="fr">
-
-agent d'achat en Chine
-fournisseur chinois
-
-</div>
-
-
-
-<div lang="de">
-
-China Einkaufsagent
-chinesischer Lieferant
-
-</div>
-
 
 
 <div lang="it">
-
 agente acquisti Cina
 fornitore cinese
-
 </div>
-
 
 
 <div lang="nl">
-
 inkoopagent China
 Chinese leverancier
-
 </div>
-
 
 
 <div lang="el">
-
-προμηθευτής Κίνας
 αγορές από Κίνα
-
+προμηθευτής Κίνας
 </div>
-
 
 
 <div lang="ur">
-
 چین خرید ایجنٹ
 چینی سپلائر
-
 </div>
-
 
 
 <div lang="he">
-
 סוכן רכש בסין
 ספק סיני
-
 </div>
-
 
 
 <div lang="ms">
-
 ejen pembelian China
 pembekal China
-
 </div>
-
 
 
 <div lang="fil">
-
 ahente sa pagbili ng China
 supplier China
-
 </div>
 
 
+
 </section>
+
 
 
 
@@ -645,18 +768,25 @@ Contact Us
 
 <p>
 
-Website:
-
-https://visaservice.icu/
+China Business Assistance
 
 </p>
 
 
 <p>
 
-China Business Assistance Provider
+<a href="https://visaservice.icu/"
+
+target="_blank"
+
+rel="noopener">
+
+https://visaservice.icu/
+
+</a>
 
 </p>
+
 
 
 </footer>
