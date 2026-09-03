@@ -37,8 +37,8 @@ Helping international businesses connect with Chinese suppliers, manufacturers a
 
 https://visaservice.icu/
 
-https://github.com/ChinaLocalSupport/
+https://github.com/chinamanufacturers/
 
-https://chinalocalsupport.github.io/china-business-trade-agent/
+https://chinamanufacturers.github.io/chinabusinesstradeagent/
 
-https://github.com/ChinaLocalSupport/china-business-problems/
+https://github.com/chinamanufacturers/chinabusinessproblems/
